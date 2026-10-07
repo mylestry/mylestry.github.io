@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Şok haber: Barbie kurye açıldı</title>
+
+  <style>
+    :root {
+      --zemin: #fbfaf7;
+      --yazi: #23211e;
+      --soluk: #6f6a62;
+      --cizgi: #d9d4ca;
+      --vurgu: #2f5d62;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --zemin: #181a1b;
+        --yazi: #e9e6df;
+        --soluk: #a09a90;
+        --cizgi: #34383a;
+        --vurgu: #7fb5ba;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--zemin);
+      color: var(--yazi);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 1.15rem;
+      line-height: 1.75;
+    }
+
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 3rem);
+      line-height: 1.15;
+      margin: 0 0 0.5rem;
+    }
+
+    .bilgi {
+      color: var(--soluk);
+      font-family: system-ui, sans-serif;
+      font-size: 0.95rem;
+      margin: 0 0 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--cizgi);
+    }
+
+    p { margin: 0 0 1.25rem; }
+
+    figure { margin: 2rem 0; }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+
+    <h1>Şok haber: Barbie kurye açıldı</h1>
+
+    <p class="bilgi">Yazan: Dönerciler</p>
+
+    <p>
+      Amasra'da Barbie kurye açıldı. İlk çalışanımız olan Barbaros bu fotoğrafla tarihe geçti.
+    </p>
+
+    <figure>
+      <img src="foto1.png" alt="Pembe Barbie kıyafetli kurye, pembe kutulu beyaz motosikletin üstünde gülümsüyor">
+    </figure>
+
+  </main>
+</body>
+</html>
